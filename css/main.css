@@ -1,0 +1,129 @@
+
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.maincontainer{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px black solid;
+}
+/*banner css*/
+.banner{
+    display: flex;
+    flex-direction: row;
+    border: 2px black solid;
+    height: auto;
+    justify-items: space-between;
+    padding: 10px;
+    background-color: rgb(143, 0, 0);
+    color: white;
+}
+.pic{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.summary{
+    padding: 10px
+}
+img {
+    border-radius: 60%;
+    border: 2px black solid;
+    object-fit: scale-down;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+  }
+/*skill css*/
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border: 1px black solid;
+    padding-bottom: 10px;
+    background-color:white;
+    opacity: 0.95;
+}
+.skillcolumns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+}
+.column1{
+    display: flex;
+    padding-right: 20px;
+}
+.column2{
+    display: flex;
+    padding-left: 20px;
+}
+/*education and experience css*/
+.eduandexp{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.edu{
+    display: flex;
+    flex-direction: column;
+    width: 49.5%;
+    height: auto;
+    border: 1px black solid;
+    background-color:white;
+    opacity: 0.95;
+}
+.exp{
+    display: flex;
+    flex-direction: column;
+    width: 49.5%;
+    height: auto;
+    border: 1px black solid;
+    background-color:white;
+    opacity: 0.95;
+}
+/*Font style, alignment and more css*/
+.skillheader{
+    text-align: center;
+}
+.edu span{
+    font-weight: bold;
+}
+.exp span{
+    font-weight: bold;
+}
+ul p{
+    margin: 0;
+}
+.boxheading{
+    text-align: center;
+}
+@media all and (max-width: 600px) {
+    .maincontainer *:not(li) {
+        display: flex;
+        flex-flow: column;
+        width:auto;
+        justify-content: flex-start;
+    }
+   .skillcolumns{
+        display: flex;
+        justify-items: flex-start    
+    }
+   .column1{
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+    }
+   .column2{
+        display: flex;
+        padding: 0px;
+        margin-top: -30px;
+    }
+    .exp{
+        margin-top: 10px;
+    }
+}
