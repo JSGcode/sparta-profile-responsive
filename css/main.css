@@ -54,7 +54,6 @@ img {
     padding-bottom: 10px;
     border-radius: 25px;
     background-color:white;
-    opacity: 0.95;
 }
 .skillcolumns{
     display: flex;
@@ -80,8 +79,9 @@ img {
 .edu{
     display: flex;
     flex-direction: column;
-    width: 49.5%;
+    width: 48%;
     height: auto;
+    padding-right: 10px;
     border: 1px black solid;
     border-radius: 25px;
     background-color:white;
@@ -90,8 +90,9 @@ img {
 .exp{
     display: flex;
     flex-direction: column;
-    width: 49.5%;
+    width: 48%;
     height: auto;
+    padding-right: 10px;
     border: 1px black solid;
     background-color:white;
     border-radius: 25px;
@@ -100,12 +101,15 @@ img {
 /*Font style, alignment and more css*/
 .skillheader{
     text-align: center;
+    color: rgb(67, 112, 179);
 }
 .edu span{
     font-weight: bold;
+    color: rgb(67, 112, 179);
 }
 .exp span{
     font-weight: bold;
+    color: rgb(67, 112, 179);
 }
 ul p{
     margin: 0;
@@ -113,6 +117,10 @@ ul p{
 .boxheading{
     text-align: center;
 }
+.exp h2, .edu h2{
+    color: rgb(67, 112, 179);
+}
+/**/
 @media all and (max-width: 600px) {
     .maincontainer *:not(li) {
         display: flex;
@@ -136,5 +144,8 @@ ul p{
     }
     .exp{
         margin-top: 10px;
+    }
+    .edu{
+        padding-right: 10px;
     }
 }
