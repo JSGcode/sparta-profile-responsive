@@ -9,6 +9,14 @@ html{
     flex-direction: column;
     padding: 10px;
     border: 2px black solid;
+    background-image: url("../img/Damask.jpg");
+    /* Set a specific height */
+    height: auto; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*banner css*/
 .banner{
@@ -18,7 +26,7 @@ html{
     height: auto;
     justify-items: space-between;
     padding: 10px;
-    background-color: rgb(143, 0, 0);
+    background-color: rgba(67, 112, 179, 0.781);
     color: white;
 }
 .pic{
@@ -44,6 +52,7 @@ img {
     margin-top: 10px;
     border: 1px black solid;
     padding-bottom: 10px;
+    border-radius: 25px;
     background-color:white;
     opacity: 0.95;
 }
@@ -74,6 +83,7 @@ img {
     width: 49.5%;
     height: auto;
     border: 1px black solid;
+    border-radius: 25px;
     background-color:white;
     opacity: 0.95;
 }
@@ -84,6 +94,7 @@ img {
     height: auto;
     border: 1px black solid;
     background-color:white;
+    border-radius: 25px;
     opacity: 0.95;
 }
 /*Font style, alignment and more css*/
